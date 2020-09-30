@@ -1,6 +1,7 @@
 
 class CashRegister
-  def item_add()
+  def initialize(total)
+    @total = total
   end
   
   def discount_calculator 
