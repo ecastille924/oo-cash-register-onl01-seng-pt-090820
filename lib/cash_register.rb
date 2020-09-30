@@ -1,12 +1,6 @@
 
 class CashRegister
-  def initialize(total)
-    @total = total
-  end
-  
-  def discount_calculator 
-  end
-  
+  attr_accessor :
   #add items with: quatities, price
   
 end
