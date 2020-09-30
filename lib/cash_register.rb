@@ -2,7 +2,7 @@
 class CashRegister
   attr_accessor :total, :discount, :last_trans, :items
   
-  def total
+  def initialize
     @total = 0 
   end
   
