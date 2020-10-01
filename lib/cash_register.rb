@@ -38,5 +38,6 @@ class CashRegister
     if self.items.empty? 
       @total == 0.0
     end
+  end
     
 end
