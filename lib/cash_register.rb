@@ -34,10 +34,8 @@ class CashRegister
   end
   
   def void_last_transaction
-    @total = @total - @last_transaction
-    if self.items.empty? 
-      @total == 0.0
-    end
+    
+    
   end
     
 end
