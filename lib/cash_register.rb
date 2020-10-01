@@ -27,9 +27,9 @@ class CashRegister
     if discount > 0 
       @price_reduce = (price * discount)/100
       @total -= @price_reduce
-      puts "After the discount, the total comes to $#{total}."
+      "After the discount, the total comes to $#{total}."
     else 
-      puts "There is no discount to apply."
+      "There is no discount to apply."
     end
   end
   
